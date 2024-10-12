@@ -38,7 +38,7 @@ const ContainerMain = () => {
         <img src={user1} className='w-14 mt-4 ml-4' id="img1"/>
         <p className='absolute ml-24 mt-4 border-2 pr-48 text-black font-semibold bg- pl-4 py-3 rounded-3xl border-gray-400 text-left' id="back">Start a post, try writing with AI</p>
         </div>
-        <div className='flex space-x-20 pl-6 pt-2 pb-2 pr-7'>
+        <div className='flex space-x-20 pl-6 pt-2 pb-2 '>
         <div className='flex py-3 px-2 space-x-2' id="post1">
           <img src={image} className='w-7 h-7'/>
           <p className='text-base font-semibold'>Media</p>
@@ -108,13 +108,13 @@ const ContainerMain = () => {
             </div>
             <div className='h-px ml-5 w-11/12 bg-gray-200' ></div>
             <div className='flex space-x-12 pl-12 py-4'>
-              <div className='flex space-x-1 cursor-pointer' onClick={()=>handleButtons(index)}>
+              <div className='flex space-x-1 cursor-pointer' onClick={()=>handleButtons(index)} id="post">
               <ThumbsUp  color={`${!clicked[index] ? '#8a8a8a' : '#0a66c2'}`} fill={`${clicked[index] ? '#0a66c2' : '#FFFFFF'}`}/><span id={`${clicked[index] ? 'case1':'case2'}`} className='font-semibold'>Like</span></div>
-              <div className='flex space-x-1'>
+              <div className='flex space-x-1' id="post">
               <img src={comment} className='w-7 h-7'/><span>Comment</span></div>
-              <div className='flex space-x-1'>
+              <div className='flex space-x-1' id="post">
               <img src={repost} className='w-7 h-7'/><span>Repost</span></div>
-              <div className='flex space-x-1'>
+              <div className='flex space-x-1' id="post">
               <img src={send} className='w-7 h-7'/><span>Send</span></div>
             </div>
         </div>
