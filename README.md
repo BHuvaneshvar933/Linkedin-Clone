@@ -8,9 +8,9 @@ This is a LinkedIn clone built to enhance my understanding of JavaScript, React.
 - Styling with Tailwind CSS: Efficient styling for component based styling.
 
 # Technologies Used
-React.js (JavaScript library for building user interfaces)
-Vite (frontend tool for fast project setup)
-Tailwind CSS (utility-first CSS framework for styling)
+- React.js (JavaScript library for building user interfaces)
+- Vite (frontend tool for fast project setup)
+- Tailwind CSS (utility-first CSS framework for styling)
 
 # Future Improvements
 - Add user authentication (Sign in/Sign up)
