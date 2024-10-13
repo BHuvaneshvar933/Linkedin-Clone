@@ -16,7 +16,7 @@ const ContainerRight = () => {
         <div className='pl-6 space-y-3 pb-7'>
           <h3 className='text-base '>Top stories</h3>
           <div className='space-y-1'>
-             <p className='text-black font-semibold text-sm'>India's top 20 startups</p>
+             <p className='text-black font-semibold text-sm'>India top 20 startups</p>
              <p className='text-xs'>6d ago • 45,497 readers</p>
           </div>
           <div>
