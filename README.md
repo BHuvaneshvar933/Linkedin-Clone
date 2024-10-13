@@ -1,4 +1,4 @@
-# LinkedIn Clone
+We# LinkedIn Clone
 This is a LinkedIn clone built to enhance my understanding of JavaScript, React.js, and web development best practices. This project helped me practice component-based architecture, state management, and event handling in a more complex and realistic scenario.
 
 # What I Learned from This Project
@@ -16,7 +16,7 @@ This is a LinkedIn clone built to enhance my understanding of JavaScript, React.
 - Add user authentication (Sign in/Sign up)
 - Add create and share posts
 - Add news feed displaying recent posts
-- Add like and comment functionality
+- Add comment functionality
 - Data persistence using local storage
 - Responsive design for mobile and desktop users
 - Implement real-time chat functionality
