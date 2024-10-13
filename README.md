@@ -1,4 +1,4 @@
-We# LinkedIn Clone
+# LinkedIn Clone
 This is a LinkedIn clone built to enhance my understanding of JavaScript, React.js, and web development best practices. This project helped me practice component-based architecture, state management, and event handling in a more complex and realistic scenario.
 
 # What I Learned from This Project
