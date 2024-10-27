@@ -158,7 +158,7 @@ const ContainerMain = () => {
               <button
                 className='flex space-x-1 cursor-pointer h-14 py-4 px-7 rounded-md'
                 id="post"
-                onClick={() => {handleButtons(index),handleComment(index),handleLikes()}
+                onClick={() => {handleButtons(index),handleComment(index),handleLikes(index)}
                   
                 }
               >
